@@ -1,0 +1,75 @@
+.container-table{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.container-table, .btn-cad{
+    padding: 12px;
+    border: none;
+    margin: 18px;
+    border-radius: 20px;
+    background-color: #404040;
+
+}
+
+.btn-cad{
+    background-color: #D3F263;
+    font-weight: 600;
+}
+
+.btn-cad:hover{
+    background-color: #A7BF4E;
+    color: aliceblue;
+}
+
+.table{
+    color: rgb(255, 253, 253);
+    border-left: 1099px;
+    margin-left: 13px;
+    width: 98%;
+    background-color: #a6bf4e62;
+}
+
+.table td{
+    color: aliceblue;
+    padding-left: 10px;
+    background-color: rgba(79, 79, 79, 0.326);
+}
+
+
+.nav-bar{
+    background-color: #A7BF4E;
+    display: flex;
+    padding: 12px;
+    box-shadow: 1px 4px 9px black;
+}
+
+.link-nav:hover{
+    color: aliceblue;
+}
+
+.nav-bar, .link-nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    text-decoration: none;
+    color: #0D0D0D;
+    font-weight: 600;
+}
+
+.btn-del, .btn-edit{
+    padding: 8px;
+    border-radius: 9px;
+    border: none;
+    margin: 4px;
+}
+
+.btn-del:hover{
+    background-color: rgba(118, 27, 27, 0.702);
+    color: aliceblue;
+}
+
+.btn-edit:hover{
+    background-color: rgba(31, 86, 42, 0.648);
+    color: aliceblue;
+}
